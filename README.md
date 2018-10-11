@@ -9,4 +9,4 @@ While writing my userbot I didnt want to setup a full DB server so I decided to 
 They are still a ToDo
 
 ## Installation
-`pip install jbd`
+`pip install jdb`
