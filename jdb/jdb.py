@@ -221,6 +221,15 @@ class Database:
         self.db_data = self._init_data
 
 
+    def delete(self):
+        """Removes the database file.
+
+        Returns:
+            None
+
+        """
+        os.remove(self.db_path)
+
 class PathIsDirectoryError(Exception):
     """Raised when the specified database name is a directory."""
 
